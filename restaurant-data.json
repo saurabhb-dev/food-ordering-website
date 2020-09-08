@@ -1,0 +1,12 @@
+[
+    {"id": 1, "name": "Our Grill", "rating": 3, "eta": "60", "tags": "Italian, Chinese", "img": "https://images.unsplash.com/photo-1508766917616-d22f3f1eea14?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"},
+    {"id": 2, "name": "Great Spices", "rating": 4, "eta": "90", "tags": "Italian, South Indian", "img": "https://images.unsplash.com/photo-1589769105893-3cfe4c0c8851?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"},
+    {"id": 3, "name": "We Cater", "rating": 2, "eta": "100", "tags": "Italian, South Indian, North Indian", "img": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"},
+    {"id": 4, "name": "Tasty Food", "rating": 4, "eta": "40", "tags": "Russian, African", "img": "https://images.unsplash.com/photo-1528605248644-14dd04022da1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"},
+    {"id": 5, "name": "Upscale Food", "rating": 4, "eta": "20", "tags": "Punjabi, South Indian", "img": "https://images.unsplash.com/photo-1525610553991-2bede1a236e2?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"},
+    {"id": 6, "name": "Foodistic", "rating": 3, "eta": "30", "tags": "Russian, South Indian", "img": "https://images.unsplash.com/photo-1481833761820-0509d3217039?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"},
+    {"id": 7, "name": "Flavor Food", "rating": 4, "eta": "50", "tags": "Punjabi, South Indian, Russian", "img": "https://images.unsplash.com/photo-1487004121828-9fa15a215a7a?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"},
+    {"id": 8, "name": "Bro's Kitchen", "rating": 5, "eta": "60", "tags": "Punjabi, South Indian, Chinese", "img": "https://images.unsplash.com/photo-1484156818044-c040038b0719?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"},
+    {"id": 9, "name": "Mario's Hotel", "rating": 5, "eta": "40", "tags": "African, Russian", "img": "https://images.unsplash.com/photo-1484156818044-c040038b0719?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"},
+    {"id": 10, "name": "Italian House", "rating": 4, "eta": "110", "tags": "Italian", "img": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"}
+]

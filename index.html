@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Ordering App</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+  
+    <!-- Site title -->
+    <header>
+        <h1 class="site-name">
+           Slavic's Food Ordering
+        </h1>
+        
+  <!-- Search functionality -->
+    <div class="search-container">
+        <input class="search-component search-box" type="text" placeholder="Search for a restaurant">
+        <button class="search-component search-button btn">SEARCH</button>
+    </div>
+    </header>
+
+<div class="all-container">
+    <aside>
+        <div id="firstoption">
+            <label id="lable1" class="labels" for="sorting">Sort by: </label>
+            <select id="sorting" name="sorting">
+                <option value="None">None</option>
+                <option value="Estimated Delivery Time">Estimated Delivery Time</option>
+                <option value="Rating">Rating</option>
+            </select>
+        </div>
+
+        <div id="secondoption">
+            <label id="lable2" class="labels">Selected Tags: </label>
+            <span class="checkbox-component"><input type="checkbox" id="italian" name="Italian" value="Italian">
+            <label for="italian">Italian</label>
+            </span>
+
+            <span class="checkbox-component">
+            <input type="checkbox" id="southindian" name="South Indian" value="South Indian">
+            <label for="southindian">South&nbsp;Indian</label>
+            </span>
+
+            <span class="checkbox-component">
+            <input type="checkbox" id="chinese" name="Chinese" value="Chinese">
+            <label for="chinese">Chinese</label>
+            </span>
+
+            <span class="checkbox-component">
+            <input type="checkbox" id="punjabi" name="Punjabi" value="Punjabi">
+            <label for="punjabi">Punjabi</label>
+            </span>
+
+            <span class="checkbox-component">
+            <input type="checkbox" id="russian" name="Russian" value="Russian">
+            <label for="russian">Russian</label>
+            </span>
+
+            <span class="checkbox-component">
+            <input type="checkbox" id="african" name="African" value="African">
+            <label for="african">African</label>
+            </span>
+
+            
+        </div>
+
+    </aside>
+</div>
+    <main>
+        <div class="restaurant-container" id="wholeList">
+                
+        </div>
+    </main>
+
+
+    
+</body>
+</html>

@@ -1,0 +1,114 @@
+:root {
+    --main-color: darkgreen;
+  }
+  
+  body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.site-name{
+    color: var(--main-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
+.search-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
+.btn{
+    border-radius: 10px;
+    border: 2px solid var(--main-color);
+}
+.search-component{
+    height: 2rem;
+}
+
+
+#firstoption, #secondoption{
+    display: flex;
+    justify-content: left;
+    margin: 10px;
+}
+
+select{
+    height: 30px;
+    transform: translate(0px,-5px);
+}
+
+.checkbox-component{
+    margin-right: 15px;
+}
+.search-box {
+    width: 20%;
+    border-radius: 10px;
+
+}
+.labels{
+    color: var(--main-color);
+    font-weight: bold;
+    width: 150px;
+}
+
+#sorting{
+    border-radius: 10px;
+}
+.search-button{
+    width: 100px;
+    font-weight: bold;
+    height: 2.5rem;
+    margin-left: .5rem;
+    color: var(--main-color);
+}
+.all-container{
+    display: flex;
+    justify-content: flex-start;
+    width: 66.66%;
+    margin: auto;
+}
+
+.restaurant-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+justify-content: center;
+align-content: center;
+width: 66.66%;
+
+    margin: auto;
+
+
+}
+
+.restaurant-image{
+    border-radius: 10px;
+    width: 300px;
+    margin: 10px auto;
+  display: block;
+}
+
+.one-restaurant{
+    border-radius: 10px;
+
+    border: 2px solid var(--main-color);
+    margin: 10px;
+}
+
+.restaurant-text{
+    text-align: center;
+    color: var(--main-color);
+}
+
+#res-name{
+font-weight: bold;
+}
+
+
+input:focus {
+    outline: none;
+}
+
